@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Test</string>
+    <string name="hello_world">Hello Kumar!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="button_string1">Hit Me</string>
+    <string name="hello_kumar">Hello Kumar!</string>
+    <string name="nameIn">Name</string>
+    <string name="commentIn">Comment</string>
+    <string name="otherIn">Others</string>
+    <string name="blank"></string>
+    <string name="clear">Clear Me</string>
+    <string name="save">Save</string>
+    <string name="email">Email</string>
+    <string name="query">Get Comment</string>
+</resources>

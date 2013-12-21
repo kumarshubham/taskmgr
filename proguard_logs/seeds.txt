@@ -1,0 +1,42 @@
+com.example.androidtest.Base_Activity: Base_Activity()
+com.example.androidtest.MainActivity
+com.example.androidtest.MainActivity: MainActivity()
+com.example.androidtest.MainActivity: void saveComment(android.view.View)
+com.example.androidtest.MainActivity: void getComment(android.view.View)
+com.example.androidtest.MainActivity: void clearComment(android.view.View)
+com.example.androidtest.R$drawable: int facebook_icon
+com.example.androidtest.R$drawable: int ic_launcher
+com.example.androidtest.R$drawable: int refresh_icon
+com.example.androidtest.R$drawable: int twitter_icon
+com.example.androidtest.R$id: int LinearLayout1
+com.example.androidtest.R$id: int LinearLayout2
+com.example.androidtest.R$id: int button
+com.example.androidtest.R$id: int button1
+com.example.androidtest.R$id: int button2
+com.example.androidtest.R$id: int commentIn
+com.example.androidtest.R$id: int commentOut
+com.example.androidtest.R$id: int emailIn
+com.example.androidtest.R$id: int facebook
+com.example.androidtest.R$id: int menu_settings
+com.example.androidtest.R$id: int nameIn
+com.example.androidtest.R$id: int nameOut
+com.example.androidtest.R$id: int otherOut
+com.example.androidtest.R$id: int refresh
+com.example.androidtest.R$id: int twitter
+com.example.androidtest.R$layout: int main_activity
+com.example.androidtest.R$menu: int main_activity
+com.example.androidtest.R$string: int app_name
+com.example.androidtest.R$string: int blank
+com.example.androidtest.R$string: int button_string1
+com.example.androidtest.R$string: int clear
+com.example.androidtest.R$string: int commentIn
+com.example.androidtest.R$string: int email
+com.example.androidtest.R$string: int hello_kumar
+com.example.androidtest.R$string: int hello_world
+com.example.androidtest.R$string: int menu_settings
+com.example.androidtest.R$string: int nameIn
+com.example.androidtest.R$string: int otherIn
+com.example.androidtest.R$string: int query
+com.example.androidtest.R$string: int save
+com.example.androidtest.R$style: int AppBaseTheme
+com.example.androidtest.R$style: int AppTheme

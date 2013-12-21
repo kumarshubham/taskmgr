@@ -1,0 +1,30 @@
+com.example.androidtest.Base_Activity -> com.example.androidtest.a:
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+com.example.androidtest.DbHelper -> com.example.androidtest.b:
+    java.lang.String createDb -> a
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+com.example.androidtest.MainActivity -> com.example.androidtest.MainActivity:
+    android.widget.TextView name -> a
+    android.widget.TextView comment -> b
+    android.widget.TextView email -> c
+    android.widget.EditText nameIn -> d
+    android.widget.EditText commentIn -> e
+    android.widget.EditText emailIn -> f
+    android.database.sqlite.SQLiteDatabase db -> g
+    java.lang.String myName -> i
+    java.lang.String myComment -> j
+    java.lang.String myEmail -> k
+    com.example.androidtest.DbHelper dbhelper -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void saveComment(android.view.View) -> saveComment
+    void getComment(android.view.View) -> getComment
+    void onStart() -> onStart
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onStop() -> onStop
+    void onDestroy() -> onDestroy
+    void clearComment(android.view.View) -> clearComment

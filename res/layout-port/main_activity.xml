@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity" >
+
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameIn"
+            android:layout_gravity="left|center_vertical"
+            android:paddingTop="10dp"
+            android:hint="@string/nameIn"/>
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/commentIn"
+            android:layout_gravity="left|center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:hint="@string/commentIn" />
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailIn"
+            android:layout_gravity="left|center_vertical"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+
+    <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+        >
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/button"
+                android:text="@string/save"
+                android:onClick="saveComment"
+                />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            android:id="@+id/button1"
+            android:layout_gravity="center"
+            android:onClick="clearComment"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/button2"
+            android:text="@string/query"
+            android:onClick="getComment"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/blank"
+            android:id="@+id/nameOut"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:paddingTop="20dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/blank"
+            android:id="@+id/commentOut"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/blank"
+            android:id="@+id/otherOut"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+com.example.androidtest.BuildConfig
+com.example.androidtest.DbHelper:
+    public static final java.lang.String DATABASE_NAME
+    public static final java.lang.String TABLE_NAME
+    public static final java.lang.String C_ID
+    public static final java.lang.String NAME
+    public static final java.lang.String COMMENT
+    public static final java.lang.String EMAIL
+    public static final java.lang.String TIME
+    public static final int VERSION
+com.example.androidtest.R
+com.example.androidtest.R$attr
+com.example.androidtest.R$drawable
+com.example.androidtest.R$id
+com.example.androidtest.R$layout
+com.example.androidtest.R$menu
+com.example.androidtest.R$string
+com.example.androidtest.R$style
